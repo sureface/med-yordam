@@ -1,0 +1,20 @@
+@font-face {
+    font-family: sf-pro-bold;
+    src: url("../font/SFProText-Bold.ttf");
+}
+@font-face {
+    font-family: sf-pro-medium;
+    src: url("../font/SFProText-Medium.ttf");
+}
+@font-face {
+    font-family: sf-pro-regular;
+    src: url("../font/SFProText-Regular.ttf");
+}
+@font-face {
+    font-family: sf-pro-semiBold;
+    src: url("../font/SFProText-Semibold.ttf");
+}
+@font-face {
+    font-family: sf-pro-light;
+    src: url("../font/SFProText-Light.ttf");
+}

@@ -1,0 +1,79 @@
+@import url("./assets/css/fonts.css");
+
+/* down here variables to make change easly,  enjoy :) */
+/* my = med yordam  used shord cut */
+:root {
+    --my-body-bg: #F8F8F8;
+    --my-dark-blue: #0129E3;
+    --my-black: #050B2B;
+    --my-gray: #747474;
+    --my-white: #ffffff;
+    --my-blue-gradient-1: #379FF2;
+    --my-blue-gradient-2: #022FE4;
+    --my-simple-blue: #1760D7;
+    --my-violet: #FF3E68;
+    --my-red: #DE303A;
+
+    /* PX to REM */
+    --my-fs-16: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--my-body-bg);
+    font-family: sf-pro-medium, sans-serif;
+}
+
+.container {
+    max-width: 1370px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.top-nav__actions {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav select {
+    width: 95px;
+    border: none;
+    background-color: transparent;
+    color: var(--my-black);
+    font-size: 1rem;
+    font-family: sf-pro-medium, sans-serif;
+}
+
+.top-nav__actions select:nth-child(2) {
+    margin-left: 14px;
+}
+
+.top-nav select:focus {
+    outline: none;
+}
+
+.top-nav__lang-middle {
+    font-size: var(--my-fs-16);
+    color: var(--my-gray);
+    margin-left: 12px;
+}
+
+.icon-blue {
+    color: var(--my-dark-blue);
+}
